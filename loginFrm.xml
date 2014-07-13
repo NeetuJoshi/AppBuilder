@@ -1,0 +1,41 @@
+<FormDef>
+	<Name>Login</Name>
+	<Fields>
+		<Field>
+			<FieldName>Email</FieldName>
+			<FieldType>Text</FieldType>
+			<DisplayName>Email Id</DisplayName>
+			<Constraint>
+				<Length>10</Length>
+				<RegularExpression>aa</RegularExpression>
+			</Constraint> 			
+		</Field>
+		<Field>
+			<FieldName>Password</FieldName>
+			<FieldType>Text</FieldType>
+			<DisplayName>Password</DisplayName>
+			<Constraint>
+				<Length>10</Length>
+				<RegularExpression>bb</RegularExpression>
+			</Constraint> 			
+
+		</Field>
+		<Field>
+			<FieldName>Login</FieldName>
+			<FieldType>Button</FieldType>
+			<Style>Click</Style>
+			<DisplayName>Login</DisplayName>
+			<Constraint>
+				<Length>10</Length>
+				<RegularExpression>cc</RegularExpression>
+			</Constraint> 
+			<UIActions>
+				<UIAction>
+					<When>Click</When>
+					<How>AjaxCall</How>
+					<What>LoginFunction</What>
+				</UIAction>
+			</UIActions>	
+		</Field>
+	</Fields>
+</FormDef>
